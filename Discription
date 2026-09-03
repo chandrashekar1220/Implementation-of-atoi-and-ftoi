@@ -1,0 +1,79 @@
+Implementation of atoi() and ftoi() in C
+
+📌 Project Description
+
+This project implements the functionality of the standard C library functions "atoi()" and "ftoi()" using user-defined functions.
+
+The main objective of this project is to understand how numeric values can be converted from one data type to another without directly using the standard conversion functions.
+
+🔹 atoi()
+
+"atoi()" stands for ASCII to Integer. It converts a numeric string into an integer value.
+
+For example:
+
+Input  : "12345"
+Output : 12345
+
+The implementation handles:
+
+- Positive numbers
+- Negative numbers
+- Optional "+" or "-" sign
+- Conversion of numeric characters into integer values
+
+🔹 ftoi()
+
+"ftoi()" converts a floating-point number into an integer.
+
+For example:
+
+Input  : 123.45
+Output : 123
+
+The fractional part is removed during the conversion.
+
+🎯 Objectives
+
+- Understand string-to-integer conversion.
+- Understand floating-point-to-integer conversion.
+- Implement conversion logic using C programming.
+- Practice loops, conditions, operators, and functions.
+- Understand how library functions work internally.
+
+🛠️ Technologies Used
+
+- Programming Language: C
+- Compiler: GCC / Any standard C compiler
+- Concepts: Functions, loops, conditional statements, strings, arithmetic operators, type conversion
+
+📂 Project Structure
+
+Implementation-of-atoi-and-ftoi/
+│
+├── main.c
+├── atoi_ftoi.c
+├── atoi_ftoi.h
+└── README.md
+
+▶️ How to Run
+
+Compile the program using:
+
+gcc main.c atoi_ftoi.c -o conversion
+
+Run the executable:
+
+./conversion
+
+📋 Sample Output
+
+Enter a string: -12345
+Integer value: -12345
+
+Enter a float value: 123.45
+Integer value: 123
+
+✅ Conclusion
+
+This project provides a basic understanding of how ASCII strings can be converted into integers and how floating-point values can be converted into integers using C programming logic. It improves knowledge of functions, loops, conditions, and data-type conversion.
