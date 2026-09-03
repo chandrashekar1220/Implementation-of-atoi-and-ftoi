@@ -1,0 +1,54 @@
+Testcase-1:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+1
+enter a number in string format:
+12345
+integer value=12345
+Testcase-2:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+1
+enter a number in string format:
+-5468
+integer value=-5468
+Testcase-3:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+1
+enter a number in string format:
+123str
+integer value=123
+Testcase-4:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+2
+enter a floating point number :
+249.66
+integer value=249
+Testcase-5:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+2
+enter a floating point number :
+-698.
+integer value=-698
+Testcase-6:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+2
+enter a floating point number :
+-57.69
+integer value=-57
+Testcase-7:	
+1.string to integer atoi()
+2.float to integer ftoi()
+enter your choice:
+123
+invalid choice
